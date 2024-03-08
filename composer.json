@@ -1,0 +1,27 @@
+{
+    "name": "blocksframework/cache",
+    "description": "A set of classes providing various caching features for the Blocks PHP framework",
+    "license": "MIT",
+    "keywords": [
+        "blocks",
+        "PHP framework",
+        "cache"
+    ],
+    "require": {
+        "php": ">=8.2",
+        "beberlei/assert": "^3.3",
+        "phpunit/phpunit": "^9.6",
+        "blocksframework/system": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blocks\\Cache\\":"src/class"
+        }
+    },
+    "authors": [
+        {
+            "name": "Stephen Stephenson",
+            "email": "stephenson.inbox@gmail.com"
+        }
+    ]
+}
