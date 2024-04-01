@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Blocks\\Cache\\":"src/class"
+            "Blocks\\Cache\\": "src/class"
         }
     },
     "authors": [
